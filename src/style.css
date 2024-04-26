@@ -43,7 +43,6 @@ h3 {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
   justify-content: center;
 }
 
@@ -100,4 +99,59 @@ h3 {
 .btn-purple {
   background: var(--primary-color);
   color: white;
+}
+
+.about-image {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    padding: 15px;
+  }
+
+  .header {
+    border: rgba(108, 99, 255, 0.3) solid 1px;
+    border-radius: 20px;
+    padding: 20px 0;
+  }
+
+  .navigation-links {
+    padding: none;
+    margin-top: none;
+  }
+
+  .homepage-image {
+    display: none;
+  }
+
+  .websites {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .website-title {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .weather-app {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 576px) {
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
 }
